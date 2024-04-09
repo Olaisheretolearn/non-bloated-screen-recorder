@@ -11,3 +11,17 @@
     scroll-behavior: smooth;
     font-family: "Space Grotesk", sans-serif;;
 }
+
+@media (min-width: 768px) {
+    /* Styles for screens wider than or equal to 768px (tablets and above) */
+    .hidden.md\:block {
+        display: block !important;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Styles for screens narrower than 768px (phones) */
+    .md\:hidden {
+        display: none !important;
+    }
+}
